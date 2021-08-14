@@ -1,0 +1,18 @@
+export const CATEGORY_VALUES = [
+  { key: '2S', value: '2S' },
+  { key: '3', value: '3P' },
+  { key: '5', value: '5P' },
+  { key: '4S', value: '4S' },
+  { key: '175', value: '175cc' },
+  { key: '205', value: '205cc' },
+  { key: '2006', value: '2006' },
+  { key: '2008', value: '2008' },
+  { key: '2010', value: '2010' },
+  { key: '2011', value: '2011' },
+  { key: '2012', value: '2012' },
+  { key: '2013', value: '2013' },
+  { key: '2014', value: '2014' },
+  { key: 'FL', value: 'FL' },
+  { key: 'FLOM', value: 'FLOM' },
+  { key: 'FLNM', value: 'FLNM' },
+];

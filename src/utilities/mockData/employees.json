@@ -1,0 +1,18 @@
+[
+  {
+    "firstName": "Rizan",
+    "lastName": "Mohomed",
+    "username": "rmohomed",
+    "outstanding": 12500,
+    "email": "musthafarizan@gmail.com",
+    "isActive": true
+  },
+  {
+    "firstName": "Marjan",
+    "lastName": "Mukram",
+    "username": "mmukram",
+    "outstanding": 2300,
+    "email": "",
+    "isActive": false
+  }
+]

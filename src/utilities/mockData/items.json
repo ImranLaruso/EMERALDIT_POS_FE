@@ -1,0 +1,35 @@
+[
+  {
+    "id": "001",
+    "barcode": "eit001",
+    "itemname": "eit1",
+    "category": "cat1",
+    "costprice": 100,
+    "sellingprice": 150,
+    "quantity": 10,
+    "storelocation": true,
+    "avatar": true
+  },
+  {
+    "id": "002",
+    "barcode": "eit002",
+    "itemname": "eit2",
+    "category": "cat2",
+    "costprice": 200,
+    "sellingprice": 250,
+    "quantity": 20,
+    "storelocation": true,
+    "avatar": true
+  },
+  {
+    "id": "003",
+    "barcode": "eit003",
+    "itemname": "eit3",
+    "category": "cat3",
+    "costprice": 300,
+    "sellingprice": 350,
+    "quantity": 30,
+    "storelocation": "New",
+    "avatar": true
+  }
+]

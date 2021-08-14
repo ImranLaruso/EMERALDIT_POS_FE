@@ -1,0 +1,242 @@
+/**
+ * All Google Font imports should be here as **ONE LINK**
+ * Font List goes here
+ * 1. 'Calistoga', cursive;
+ */
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+
+/* 
+  Root HTML styles
+ */
+:root {
+  /* COLOR VARIABLES */
+  --white-color: #fcfcfc;
+  --dark-color: #222;
+  --light-color: #efefef;
+
+  /* VARIABLES FROM "ANTD" */
+  --primary-color: #1890ff; /* primary color for all components */
+  --link-color: #1890ff; /* link color */
+  --success-color: #52c41a; /* success state color */
+  --warning-color: #faad14; /* warning state color */
+  --error-color: #f5222d; /* error state color */
+  --font-size-base: 14px; /* major text font size */
+  --heading-color: rgba(0, 0, 0, 0.85); /* heading text color */
+  --text-color: rgba(0, 0, 0, 0.65); /* major text color */
+  --text-color-secondary: rgba(0, 0, 0, 0.45); /* secondary text color */
+  --disabled-color: rgba(0, 0, 0, 0.25); /* disable state color */
+  --border-radius-base: 4px; /* major border radius */
+  --border-color-base: #d9d9d9; /* major border color */
+  --box-shadow-base: 0 2px 8px rgba(0, 0, 0, 0.15); /* major shadow for layers */
+
+  /* FONT FAMILY VARIABLES */
+  --title-font-family: 'Calistoga', cursive;
+  font-size: 16px;
+}
+body {
+  margin: 0 !important;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+  display: flex;
+}
+
+.body-container {
+  display: flex;
+  height: 679px;
+}
+
+.column-filter-icon {
+  cursor: pointer;
+}
+
+.main-route {
+  flex: 1;
+  min-height: 100%;
+}
+
+.right-menu-item {
+  margin-left: auto;
+  cursor: auto;
+}
+
+.side-menu-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: var(--light-color);
+}
+
+.side-menu {
+  flex: 1;
+  overflow: scroll;
+  position: relative;
+}
+
+.side-menu-copyright {
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  text-align: center;
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+.side-menu-copyright p {
+  margin: 0;
+  padding: 1px;
+}
+
+.loading-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  height: 40px;
+}
+
+.form-header {
+  text-align: center;
+  height: 40px;
+}
+
+.person-gender {
+  text-align: center;
+}
+
+.male-check {
+  text-align: center;
+}
+
+.female-check {
+  text-align: center;
+}
+
+.fname-div {
+  text-align: center;
+  width: 100%;
+}
+
+.f-name {
+  width: 400px;
+}
+
+.l-name {
+  width: 400px;
+}
+
+.address {
+  width: 400px;
+}
+
+.email {
+  width: 400px;
+}
+
+.p-number {
+  width: 400px;
+}
+
+.lname-div {
+  text-align: center;
+  padding: 0;
+}
+
+.address-div {
+  text-align: center;
+  padding: 15px;
+}
+
+.email-div {
+  text-align: center;
+  padding: 15px;
+}
+
+.pnumber-div {
+  text-align: center;
+  padding: 15px;
+}
+
+.paper-width {
+  width: 40%;
+}
+
+.input {
+  width: 100%;
+}
+
+.login-forgot-password {
+  text-align: right;
+  padding: 0 77px 50px;
+}
+
+.divider {
+  border-width: 0.5px;
+  border-color: var(--light-color);
+}
+
+.table-in-icon {
+  font-size: 1.2rem;
+}
+.active-icon {
+  color: var(--error-color) !important;
+}
+
+.inactive-icon {
+  color: var(--success-color) !important;
+}
+
+.tableBuilder-column-filter {
+  text-align: right;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.tableBuilder-search-input {
+  width: 190px;
+  margin: 5px;
+  display: block;
+}
+
+.tableBuilder-search-buttons {
+  width: 90px;
+  margin: 5px;
+}
+
+.tableBuilder-search-popup {
+  padding: 8px;
+}
+
+.tableBuilder-search-icon {
+  color: var(--primary-color) !important;
+}
+
+.tableBuilder-serch-highlighter {
+  background-color: var(--success-color);
+  padding: 0;
+}
+
+.MuiAutocomplete-inputRoot {
+  font-size: 1.3rem !important;
+}
+
+.MuiAutocomplete-root .MuiFormLabel-root.MuiInputLabel-root {
+  font-size: 1.3rem !important;
+}
+#salesDueDates {
+  width: 55% !important;
+}
+
+#sales-payment-amount {
+  font-size: 2rem;
+}

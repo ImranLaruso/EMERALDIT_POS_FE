@@ -1,0 +1,15 @@
+image: node:10.16.3 # can be upgraded, depending on your node version used
+variables:
+  PUBLIC_URL: "/eit-pos-frontend" # slash is important
+pages:
+  stage: deploy
+  script:
+    - npm install
+    - npm run build
+    - rm -rf public
+    - mv build public
+  artifacts:
+    paths:
+      - public # mandatory, other folder won't work
+  only:
+    - staging # or master, the branch you want to  publish
